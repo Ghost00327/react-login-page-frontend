@@ -1,1 +1,1 @@
-web: yarn start -p 3000
+web: npm start
