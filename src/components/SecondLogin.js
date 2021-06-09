@@ -1,13 +1,9 @@
 import React, { Component } from 'react';
 
-
 class SecondLogin extends Component {
-
-
   render() {
-    
     return (
-      <div style={{backgroundColor:'#1c2232'}} class="flex flex-col items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
+      <div style={{backgroundColor:'#1c2232'}} className="flex flex-col items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
       <div className="pt-16 pb-3">
         <p style={{color:'#858e9d'}} className="py-2">METAMASK ADRESS</p>
         <input placeholder="Placeholder"  style={{backgroundColor:'#222a3d', border:'solid 2px #393e51'}} className="rounded-md w-72 h-8 border-3 p-4"></input>

@@ -98,7 +98,7 @@ class LeftMain extends Component {
           color="default"
           inputProps={{ 'aria-label': 'checkbox with default color' }}
           />
-          <span style={{color:'#848a9a'}} className="ml-2">Disabled</span>
+          <span style={{color:'#848a9a'}} >Disabled</span>
       </div>
       <div>
           <Checkbox
@@ -106,7 +106,7 @@ class LeftMain extends Component {
             indeterminate
             inputProps={{ 'aria-label': 'indeterminate checkbox' }}
           />
-          <span style={{color:'#848a9a'}} className="ml-2">Dis. Selected</span>
+          <span style={{color:'#848a9a'}} >Dis. Selected</span>
       </div>
       <div>
           <Checkbox
@@ -114,7 +114,7 @@ class LeftMain extends Component {
             color="default"
             inputProps={{ 'aria-label': 'checkbox with default color' }}
           />
-          <span style={{color:'#848a9a'}} className="ml-2">Dis. Indeterminate</span>
+          <span style={{color:'#848a9a'}} >Dis. Indeterminate</span>
       </div>
       <div className="py-2">
         <p style={{color:'#858e9d'}} className="pb-2">NODE</p>

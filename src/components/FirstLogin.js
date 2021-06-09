@@ -5,9 +5,9 @@ class FirstLogin extends Component {
   render() {
 
     return (
-      <div style={{backgroundColor:'#1c2232'}} class="flex flex-col items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
+      <div style={{backgroundColor:'#1c2232'}} className="flex flex-col items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
         <div>
-        <h2 class="mt-6 text-center text-3xl text-white">Login</h2>
+        <h2 className="mt-6 text-center text-3xl text-white">Login</h2>
         </div>
         <div className="pt-16 pb-3">
           <p style={{color:'#858e9d'}} className="py-2">SERIAL KEY</p>

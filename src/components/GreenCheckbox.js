@@ -28,12 +28,13 @@ export default function CheckboxLabels() {
   };
 
   return (
+    <div style={{color:'#d1d3d6'}}>
     <FormGroup>
       <FormControlLabel
-        control={<GreenCheckbox name="checkedG" />}
+        control={<GreenCheckbox name="checkedG"/>}
         label="Indeterminate"
       />
-      <FormControlLabel
+      <FormControlLabel 
         control={
           <GreenCheckbox
             checked={state.checkedF}
@@ -48,5 +49,7 @@ export default function CheckboxLabels() {
         label="Indeterminate"
       />
     </FormGroup>
+    </div>
+    
   );
 }

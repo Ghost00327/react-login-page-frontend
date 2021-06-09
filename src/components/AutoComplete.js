@@ -48,9 +48,8 @@ const InputWrapper = styled('div')`
 const Tag = styled(({ label, onDelete, ...props }) => (
   <div {...props}>
     <span>{label}</span>
-    {/* <CloseIcon onClick={onDelete} /> */}
     <span>&nbsp;&nbsp;</span>
-    <span onClick={onDelete} style={{color:'#91acc2'}}>  x</span>
+    <span onClick={onDelete} style={{color:'#91acc2'}} className="cursor-pointer"> x </span>
   </div>
 ))`
   display: flex;
