@@ -9,12 +9,13 @@ class FirstLogin extends Component {
         <div>
         <h2 className="mt-6 text-center text-3xl text-white">Login</h2>
         </div>
-        <div className="pt-16 pb-3">
+        <div className="pt-16 pb-3 mb-8">
           <p style={{color:'#858e9d'}} className="py-2">SERIAL KEY</p>
           <input placeholder="Placeholder"  style={{backgroundColor:'#222a3d', border:'solid 2px #393e51'}} className="rounded-md w-72 h-8 border-3 p-4"></input>
         </div>
-        <div >
-        <button style={{background:'#7b5be3'}} className="rounded-md py-3 px-8 text-white">Login</button>
+        <div>
+        {/* <a href="/home"><button style={{background:'#7b5be3'}} className="rounded-md py-3 px-8 text-white">Login</button></a> */}
+        <a href="/home" style={{background:'#7b5be3'}} className="rounded-md py-3 px-8 text-white" >Login</a>
         </div>
       </div>
   

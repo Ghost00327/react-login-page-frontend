@@ -6,8 +6,8 @@ import AutoComplete from './AutoComplete';
 class RightMain extends Component {
   render() {
     return (
-      <div style={{backgroundColor:'#1c2232'}} className="pr-10">
-          <div className="mt-24 pb-2">
+      <div style={{backgroundColor:'#1c2232'}} className="w-max mx-auto pr-10 flex-col py-12">
+          <div className="md:mt-24 pb-2">
             <p style={{color:'#858e9d'}} className="pb-8">WALLET ADDRESS FOR AUTO WITHDRAW</p>
             <div className="relative">
               <input placeholder="Adress"  style={{backgroundColor:'#222a3d', border:'solid 2px #393e51'}} className="rounded-md w-72 h-10 border-3 p-4 mr-4 pl-8"/>

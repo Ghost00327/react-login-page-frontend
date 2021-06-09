@@ -60,7 +60,6 @@ const useStyles = makeStyles({
 
 function StyledRadio(props) {
   const classes = useStyles();
-
   return (
     <Radio
       className={classes.root}
@@ -77,7 +76,7 @@ class LeftMain extends Component {
 
   render() {
     return (
-      <div style={{backgroundColor:'#1c2232'}} className="flex-1 flex-col py-12 px-4 sm:px-6 lg:px-8">
+      <div style={{backgroundColor:'#1c2232'}} className="flex-1 w-max mx-auto py-12 px-4 sm:px-6 lg:px-8">
         <div className="pl-4">
           <FormControl component="fieldset">
           <FormLabel style={{color:'#909dad'}} component="legend">SELECT EXCHANGE</FormLabel>
@@ -118,17 +117,17 @@ class LeftMain extends Component {
       </div>
       <div className="py-2">
         <p style={{color:'#858e9d'}} className="pb-2">NODE</p>
-        <input placeholder="Node"  style={{backgroundColor:'#222a3d', border:'solid 2px #393e51'}} className="rounded-md w-72 h-10 border-3 p-4 mr-4"></input>
+        <input placeholder="Node"  style={{backgroundColor:'#222a3d', border:'solid 2px #393e51'}} className="rounded-md lg:w-72 md:w-68 h-10 border-3 p-4 mr-4"></input>
         <button style={{background:'#7b5be3'}} className="rounded-md py-2 px-8 text-white">Set</button>
       </div>
       <div className="py-2">
         <p style={{color:'#858e9d'}} className="pb-2">DISCORD WEBSOCKED TO SEND DATA</p>
-        <input placeholder="Discord web"  style={{backgroundColor:'#222a3d', border:'solid 2px #393e51'}} className="rounded-md w-72 h-10 border-3 p-4 mr-4"></input>
+        <input placeholder="Discord web"  style={{backgroundColor:'#222a3d', border:'solid 2px #393e51'}} className="rounded-md lg:w-72 md:w-68 h-10 border-3 p-4 mr-4"></input>
         <button style={{background:'#7b5be3'}} className="rounded-md py-2 px-8 text-white">Set</button>
       </div>
       <div className="py-2">
         <p style={{color:'#858e9d'}} className="pb-2">WALLET ADDRESS FOR AUTO WITHDRAW</p>
-        <input placeholder="Adress"  style={{backgroundColor:'#222a3d', border:'solid 2px #393e51'}} className="rounded-md w-72 h-10 border-3 p-4 mr-4"></input>
+        <input placeholder="Adress"  style={{backgroundColor:'#222a3d', border:'solid 2px #393e51'}} className="rounded-md lg:w-72 md:w-68 h-10 border-3 p-4 mr-4"></input>
         <button style={{background:'#7b5be3'}} className="rounded-md py-2 px-8 text-white">Set</button>
       </div>
       </div>
